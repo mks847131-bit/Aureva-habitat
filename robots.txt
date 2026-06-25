@@ -1,54 +1,6 @@
-# robots.txt for aurevahabitat.com
-# Generated for Aureva Habitat — Luxury Interior Design Studio
-
 User-agent: *
 Allow: /
-
-# Block admin panel from all crawlers
 Disallow: /#admin
-
-# Block query parameters from being indexed
-Disallow: /*?*
-
-# Sitemap location
-Sitemap: https://aurevahabitat.com/sitemap.xml
-
-# Crawl delay (be polite to the server)
-Crawl-delay: 10
-
-# ─── Major Search Engine Bots ───────────────────────────────
-
-User-agent: Googlebot
-Allow: /
-Disallow: /#admin
-Crawl-delay: 5
-
-User-agent: Googlebot-Image
-Allow: /
-Disallow: /#admin
-
-User-agent: Bingbot
-Allow: /
-Disallow: /#admin
-Crawl-delay: 10
-
-User-agent: Slurp
-Allow: /
-Disallow: /#admin
-
-User-agent: DuckDuckBot
-Allow: /
-Disallow: /#admin
-
-User-agent: Baiduspider
-Allow: /
-Disallow: /#admin
-
-User-agent: YandexBot
-Allow: /
-Disallow: /#admin
-
-# ─── Block AI Training Scrapers ─────────────────────────────
 
 User-agent: GPTBot
 Disallow: /
@@ -59,22 +11,11 @@ Disallow: /
 User-agent: CCBot
 Disallow: /
 
-User-agent: anthropic-ai
-Disallow: /
-
-User-agent: Claude-Web
-Disallow: /
-
-User-agent: cohere-ai
-Disallow: /
-
 User-agent: Google-Extended
 Disallow: /
 
 User-agent: PerplexityBot
 Disallow: /
-
-# ─── Block Malicious / Unwanted Bots ────────────────────────
 
 User-agent: AhrefsBot
 Disallow: /
@@ -82,14 +23,4 @@ Disallow: /
 User-agent: SemrushBot
 Disallow: /
 
-User-agent: MJ12bot
-Disallow: /
-
-User-agent: DotBot
-Disallow: /
-
-User-agent: BLEXBot
-Disallow: /
-
-User-agent: DataForSeoBot
-Disallow: /
+Sitemap: https://aurevahabitat.com/sitemap.xml
